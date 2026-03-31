@@ -1,0 +1,14 @@
+Package: rlogger
+Type: Package
+Title: R Command Logger for Audit Purposes
+Version: 0.1.0
+Authors@R: person("Admin", "IT", email = "admin@company.com", role = c("aut", "cre"))
+Description: Automatically logs all R commands executed by users for audit and
+    compliance purposes. Captures commands in real-time and stores them in JSONL
+    format on a configurable storage location.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports:
+    jsonlite (>= 1.7.0),
+    uuid (>= 0.1-4)
