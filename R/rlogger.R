@@ -110,15 +110,6 @@ flush_logs <- function() {
   invisible(NULL)
 }
 
-# Public function: disable logging
-disable_logging <- function() {
-  # Deregister callback (no buffer to flush)
-  deregister_callback()
-
-  message("rlogger: Logging disabled")
-  invisible(NULL)
-}
-
 # Public function: get session ID
 get_session_id <- function() {
   .pkg$session_id
