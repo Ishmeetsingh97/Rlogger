@@ -1,6 +1,6 @@
 ^\.git$
 ^\.gitignore$
-^setup_autoload\.sh$
+^setup_autoload\.ps1$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.Rhistory$
