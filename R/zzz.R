@@ -14,8 +14,7 @@
     "rlogger: Command logging active\n",
     "  Log file: ", log_file, "\n",
     "  Session ID: ", session_id, "...\n",
-    "  Mode: Immediate flush (every command logged instantly)\n",
-    "  Use get_log_file() to see log path"
+    "  Mode: Immediate flush (every command logged instantly)\n"
   )
 
   invisible(NULL)
@@ -25,6 +24,5 @@
 .onUnload <- function(libpath) {
   # Deregister callback (no buffer to flush)
   deregister_callback()
-
   invisible(NULL)
 }
